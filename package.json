@@ -1,0 +1,29 @@
+{
+  "name": "javascript-utils",
+  "version": "1.0.0",
+  "description": "javascript mini functions",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compasss/javascript-utils.git"
+  },
+  "keywords": [
+    "javascrit"
+  ],
+  "author": "compasss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/compasss/javascript-utils/issues"
+  },
+  "homepage": "https://github.com/compasss/javascript-utils#readme",
+  "devDependencies": {
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
+}
