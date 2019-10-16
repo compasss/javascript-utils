@@ -6,7 +6,9 @@
   "directories": {
     "doc": "doc"
   },
+  "browserslist": "> 0.25%, not dead",
   "scripts": {
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +25,10 @@
   },
   "homepage": "https://github.com/compasss/javascript-utils#readme",
   "devDependencies": {
-    "webpack": "^4.41.1",
-    "webpack-cli": "^3.3.9"
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1"
   }
 }

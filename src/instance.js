@@ -1,0 +1,2 @@
+// root instalce
+window.Mil = {}
